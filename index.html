@@ -4,66 +4,134 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+	
 	<title>Cestovka</title>
 </head>
 
 <body>
-	Last minute
-	Destinace
-	Časté otázky
 
-	17 600 Kč
-	Pohoda pod palmami
-	Nejlepší dovolená pro nejvíc nejlínější lidi na světě
+	<!-- HLAVICKA -->
+	<header class="hlavicka">
+		<img class="hlavicka_logo" src="./podklady/logo.svg" alt="obrazek loga" width="250">
+		<ul class="hlavicka_navigace">
+			<li class="hlavicka_navigace-polozka">Last minute</li>
+			<li class="hlavicka_navigace-polozka">Destinace</li>
+			<li class="hlavicka_navigace-polozka">Časté otázky</li>
+		</ul>
+	</header>
+	
+	<main>
 
-	8 490 Kč
-	Klid u jezera
+		<!-- ZAJEZDY -->
+		<section class="zajezdy zajezdy_vrchni">
 
-	4 990 Kč
-	Výlet na kole
+			<div class="zajezdy_hlavni zajezdy_hlavni-pohoda">
+				<p class="cena">17 600 Kč</p>
+				<h2 class="zajezdy_hlavni-nadpis">Pohoda pod palmami</h2>
+				<p class="zajezdy_hlavni-popis"> Nejlepší dovolená pro nejvíc nejlínější lidi na světě</p>
+			</div>
 
-	Podpora na místě
-	V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.
+			<div class="zajezdy_vedlejsi">
+				<div class="zajezdy_vedlejsi_jednotlive zajezdy_vedlejsi-klid">
+					<p class="cena">8 490 Kč</p>
+					<h2 class="zajezdy_vedlejsi-nadpis">Klid u jezera</h2>
+				</div>
+				<div class="zajezdy_vedlejsi_jednotlive zajezdy_vedlejsi-kolo">
+					<p class="cena">4 990 Kč</p>
+					<h2 class="zajezdy_vedlejsi-nadpis">Výlet na kole</h2>
+				</div>
+			</div>
 
-	Služby na letišti
-	Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.
+		</section>
 
-	Do celého světa
-	Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.
+		<!-- SLUŽBY -->
 
-	Vaše bezpečí
-	Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.
+		<section class="sluzby">
+			
+			<div class="sluzby_druh">
+				<img class="sluzby-logo" src="./podklady/map.svg" alt="ikona mapy" width="40" height="40"> 
+				<h3 class="sluzby-nadpis">Podpora na místě</h3>
+				<p class="sluzby-popis">V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
+			</div>
+			<div class="sluzby_druh">
+				<img class="sluzby-logo" src="./podklady/plane.svg" alt="ikona letadla" width="40" height="40"> 
+				<h3 class="sluzby-nadpis">Služby na letišti</h3>
+				<p class="sluzby-popis">Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.</p>
+			</div>
+			<div class="sluzby_druh">
+				<img class="sluzby-logo" src="./podklady/globe.svg" alt="ikona země" width="40" height="40"> 
+				<h3 class="sluzby-nadpis">Do celého světa</h3>
+				<p class="sluzby-popis">Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.</p>
+			</div>
+			<div class="sluzby_druh">
+				<img class="sluzby-logo" src="./podklady/shield.svg" alt="ikona štít" width="40" height="40"> 
+				<h3 class="sluzby-nadpis">Vaše bezpečí</h3>
+				<p class="sluzby-popis">Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.
+				</p>
+			</div>
+	
+		</section>
+		
+		<!-- ZAJEZDY -->
+	
+		<h1>Last minute zájezdy</h1>
 
-	Last minute zájezdy
+		<section class="zajezdy zajezdy_last_minute">
 
-	18 500 Kč
-	Grand Canyon
+			<div class="zajezdy_vedlejsi">
+				<div class="zajezdy_vedlejsi_jednotlive zajezdy_vedlejsi-kanary">
+					<p class="cena">8 900 Kč</p>
+					<h2 class="zajezdy_vedlejsi-nadpis">Pěšky po Kanárských ostrovech</h2>
+				</div>
+				<div class="zajezdy_vedlejsi_jednotlive zajezdy_vedlejsi-grand">
+					<p class="cena">18 500 Kč</p>
+					<h2 class="zajezdy_vedlejsi-nadpis">Grand Canyon</h2>
+				</div>
+			</div>
+			<div class="zajezdy_hlavni zajezdy_hlavni-romantika">
+				<p class="cena">15 900 Kč</p>
+				<h2 class="zajezdy_hlavni-nadpis">Romantika u horského jezera</h2>
+				<p class="zajezdy_hlavni-popis"> Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.</p>
+			</div>
 
-	8 900 Kč
-	Pěšky po Kanárských ostrovech
+		</section>
 
-	15 900 Kč
-	Romantika u horského jezera
-	Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.
+		<!-- NOVINKY -->
+	
+		<h1>Novinky</h1>
 
-	Novinky
+		<section class="novinky">
+			<div class="novinky_druh">
+				<p class="novinky-datum">15. 8. 2020</p>
+				<p class="novinky-nadpis">Magický Zanzibar</p>
+				<p class="novinky-popis">Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
+					exotická flóra i fauna.</p>
+			</div>
+			<div class="novinky_druh">
+				<p class="novinky-datum">31. 9. 2020</p>
+				<p class="novinky-nadpis">Návrat českých občanů ze zahraničí</p>
+				<p class="novinky-popis">Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
+					Ministerstva zdravotnictví ČR.</p>
+			</div>
+			<div class="novinky_druh">
+				<p class="novinky-datum">6. 10. 2020</p>
+				<p class="novinky-nadpis">Na Kubu s PCR testem</p>
+				<p class="novinky-popis">Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
+					příletem do destinace.</p>
+			</div>
+		</section>	
+		
+	</main>
 
-	15. 8. 2020
-	Magický Zanzibar
-	Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
-	exotická flóra i fauna.
-
-	31. 9. 2020
-	Návrat českých občanů ze zahraničí
-	Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
-	Ministerstva zdravotnictví ČR.
-
-	6. 10. 2020
-	Na Kubu s PCR testem
-	Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
-	příletem do destinace.
-
-	©2021, Czechitas
+	<footer>
+		©2021, Czechitas
+	</footer>
+	
 </body>
 
 </html>

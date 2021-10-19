@@ -1,0 +1,26 @@
+.novinky {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.novinky_druh {
+    background-color: var(--vedlejsi-barva);
+    padding: 20px;
+}
+
+.novinky-datum {
+    font-weight:bold;
+    color:#444444;
+    margin-top: 0px;
+}
+
+.novinky-nadpis {
+    font-weight: bold;
+    color: var(--hlavni-barva);
+}
+
+.novinky-popis {
+    color: #000000;
+    margin-bottom: 0px;
+}

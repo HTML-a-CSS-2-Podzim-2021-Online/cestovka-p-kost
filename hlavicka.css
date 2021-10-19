@@ -1,0 +1,26 @@
+.hlavicka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hlavicka_logo {
+    display:flex;
+}
+
+
+.hlavicka_navigace {
+    display: flex;
+}
+
+.hlavicka_navigace-polozka {
+    background-color: #ffffff;
+    color: var(--hlavni-barva);
+    list-style-type: none;
+    padding: 20px;
+    font-weight: 900;
+}
+
+.hlavicka_navigace-polozka:hover {
+    background-color: var(--hlavni-barva);
+    color: #ffffff;
+}

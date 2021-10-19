@@ -1,0 +1,40 @@
+@import url(hlavicka.css);
+@import url(zajezdy.css);
+@import url(sluzby.css);
+@import url(novinky.css);
+@import url(footer.css);
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+:root {
+    --hlavni-barva: #F03001;
+    --vedlejsi-barva: #F0F0F0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 40px 0 40px;
+}
+
+h1 {
+    color: #000000;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+h2,
+p {
+    color: #F0F0F0;
+}
+
+h3, h4 {
+    color: var(--hlavni-barva);
+}
